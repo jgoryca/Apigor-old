@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+
+body{
+   /*background-image: url(../pictures/wytrzyszczka1.png);*/
+   background-size: cover;
+   background-color: darkolivegreen;
+    background-attachment: fixed;
+    /*background-repeat: repeat-x;
+    background-color: #64646c;*/
+}
+p{
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: gold;
+}
+
+a:visited{
+    color: gold;
+}
+
+a:hover{
+    color: #CCCCCC;
+} 
+
+#kontener{
+    
+    width: 1290px;
+    margin: 0 auto;
+}
+/*GÓRNA CZĘŚĆ KONTENERA*/
+#gorna_czesc_kontenera{
+    position: relative;
+    margin-top: 10px;
+    background-image: url('../pictures/plaster_5.png');
+    width: 944px;
+    height: 154px;
+}
+.logo{
+    position: absolute;
+    border: 0;
+    left: 0px;
+    top: 0px;
+}
+/*GÓRNE MENU*/
+#top_menu{
+    position: absolute;
+    left: 156px;
+    bottom: -32px;
+}
+#exact_top_menu li{
+    list-style-type: none;
+    float: left;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+#exact_top_menu li a{
+    background-image: url('../pictures/top_menu.gif');
+    height: 31px;
+    display: inline-block;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 10px;
+}
+#exact_top_menu li a:hover{
+    background-image: url('../pictures/top_menu_hover.gif');
+    color: #CCCCCC;
+}
+span.link{
+    display: inline-block;
+    margin-top: 8px;
+}
+/*ZAWARTOŚĆ*/
+#content{
+    background-image: url('../pictures/tlo1.png');
+    width: 944px;
+    background-color: rgb(141, 133, 63);
+    margin-top: 0px;
+    border: 1px solid #7F593F;
+}
+#h1-main{
+    text-align: center;
+    margin-top: 80px;
+}
+.text h3{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.text{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img_o_nas{
+    width: 533px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: 1s;
+}
+
+.img_o_nas:hover{
+    width: 876px;
+    height: 490px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: 1s;
+}
+
+/*DOLNA CZĘŚĆ STRONY*/
+#dolna_czesc_strony{
+    /*background-color: rgb(224, 207, 49);*/
+    background-image: url('../pictures/stopka.gif');
+    width: 944px;
+    height: 30px;
+    border: 1px solid #7F593F;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    
+}
+
+#copyright{
+    margin-top: 8px;
+    text-align: center;
+    color: #7F593F;
+    font-size: 12px;
+}
+
+
+
+/* KONTAKT*/
+
+#address table{
+    width: 794px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#contact_box table{
+    width: 794px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+input{
+    color: black;
+}
+
+.td1{
+    text-align: left;
+}
+
+.td2{
+    text-align: right;
+}
+
+/*PRODUKTY PSZCZELE*/
+
+#products table{
+    width: 750px;
+    margin-top: 120px;
+}
+
+#products tr{
+    height: 280px;
+}
+
+#products td{
+    vertical-align: top;
+    padding: 30px;
+}
+
+/*APITERAPIA*/
+
+.img_apiterapia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#ul_apiterapia{
+    margin-left: 120px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+
